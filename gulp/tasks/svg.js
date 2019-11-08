@@ -6,14 +6,14 @@ module.exports = () => {
                     pretty: true
                 }
             }))
-           /* .pipe($.gp.cheerio({
+            .pipe($.gp.cheerio({
                 run: ($) => {
                     $('[fill]').removeAttr('fill');
                     $('[stroke]').removeAttr('stroke');
                     $('[style]').removeAttr('style');
                 },
                 parserOptions: {xmlMode: true}
-            }))*/
+            }))
             .pipe($.gp.replace('&gt;', '>'))
             //build svg sprite
             .pipe($.gp.svgSprite({

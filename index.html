@@ -1,294 +1,794 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="initial-scale=1.0, width=device-width">
-  <title>DSGN</title>
-  <link rel="stylesheet" href="css/style.min.css" type="text/css" />
-  <script defer src="js/all.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>DSGN</title>
+    <link rel="stylesheet" href="css/style.min.css" type="text/css"/>
+    <script defer src="js/all.min.js"></script>
 </head>
 <body>
 <div class="container">
-  <header class="header">
-    <div class="header__left">
-      <img class="header__logo" src="/img/logo.png" srcset="/img/logo.png 1x, /img/logo-2x.png 2x" alt="Логотип">
-      <p class="header__slogan">Associated<br>studio<br>design</p>
-      <ul class="header__socials socials">
-        <li class="socials__element">
-          <a class="socials__link" href="#" aria-label="facebook">
-            <svg class="socials__facebook">
-              <use xlink:href="/img/symbol/sprite.svg#fb"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="socials__element">
-          <a class="socials__link" href="#" aria-label="twitter">
-            <svg class="socials__twitter">
-              <use xlink:href="/img/symbol/sprite.svg#twitter"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="socials__element">
-          <a class="socials__link" href="#" aria-label="linkedin">
-            <svg class="socials__linkedin">
-              <use xlink:href="/img/symbol/sprite.svg#linked"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="socials__element">
-          <a class="socials__link" href="#" aria-label="google plus">
-            <svg class="socials__google">
-              <use xlink:href="/img/symbol/sprite.svg#google"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="header__right">
-      <p class="header__address">
-        808080 California <br/>
-        Lorem ipsum <br/>
-        32 PG box <br/>
-        300 east ocean <br/>
-        street <br/>
-      </p>
-      <p class="header__contacts">
-        <a class="header__tel" href="tel:+6493456758">+64 9 345 6758</a>
-        <a class="header__mail" href="mailto  :email@mail.com">email@mail.com</a>
-      </p>
-    </div>
-  </header>
-  <nav class="menu">
-    <ul class="menu__list">
-      <li class="menu__element">
-        <a href="#" class="menu__link">Home</a>
-      </li>
-      <li class="menu__element">
-        <a href="#" class="menu__link">Projects</a>
-      </li>
-      <li class="menu__element">
-        <a href="#" class="menu__link">Studio</a>
-      </li>
-      <li class="menu__element">
-        <a href="#" class="menu__link">News</a>
-      </li>
-      <li class="menu__element">
-        <a href="#" class="menu__link">Contact</a>
-      </li>
-    </ul>
-    <button class="menu__hamburger hamburger" aria-label="Кнопка меню">
-      <span class="hamburger__element"></span>
-    </button>
-  </nav>
-  <section class="projects">
-    <div class="projects__element projects__element--one">
-      <ul class="project__links links">
-        <li class="links__item">
-          <a href="#" class="links__link">All</a>
-        </li>
-        <li class="links__item">
-          <a href="#" class="links__link">House</a>
-        </li>
-        <li class="links__item">
-          <a href="#" class="links__link">Commercial</a>
-        </li>
-        <li class="links__item">
-          <a href="#" class="links__link">Personal</a>
-        </li>
-        <li class="links__item">
-          <a href="#" class="links__link">Studio Lab</a>
-        </li>
-      </ul>
-      <h1 class="projects__title">projects</h1>
-    </div>
-    <div class="projects__element projects__element--two">
-      <div class="projects__info">
-        <h2 class="projects__name">fondue</h2>
-        <p class="projects__description">
-          <b>Lorem ipsum:</b> Lorem ipsum
-        </p>
-        <p class="projects__description">
-          <b>Lorem ipsum:</b> Lorem ipsum
-        </p>
-        <p class="projects__description">
-          <b>Lorem ipsum:</b> Lorem ipsum
-        </p>
-        <p class="projects__description">
-          <b>Lorem ipsum:</b> Lorem ipsum
-        </p>
-        <p class="projects__description">
-          <b>Lorem ipsum:</b> Lorem ipsum
-        </p>
-      </div>
-      <div class="projects__counter">
-        <a class="projects__view" href="#"><span>view projects</span></a>
-        <p class="projects__like like">
-          <button aria-label="like" class="like__btn">
-            <svg>
-              <use xlink:href="/img/symbol/sprite.svg#heart"></use>
-            </svg>
-          </button>
-          <span class="like__counts">+ 200</span>
-        </p>
-      </div>
-    </div>
-    <div class="projects__element projects__element--three">
-      <div class="projects__info">
-        <h2 class="projects__name">potter</h2>
-        <p class="projects__description"><b>for</b>  stelton</p>
-        <p class="projects__description projects__description--lowercase">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis cum nesciunt non, quae recusandae repellat.</p>
-      </div>
-      <div class="projects__counter">
-        <a class="projects__view" href="#"><span>view projects</span></a>
-        <p class="projects__like like">
-          <button aria-label="like" class="like__btn">
-            <svg>
-              <use xlink:href="/img/symbol/sprite.svg#heart"></use>
-            </svg>
-          </button>
-          <span class="like__counts">+ 200</span>
-        </p>
-      </div>
-    </div>
-    <div class="projects__element projects__element--four">
-      <div class="projects__info">
-        <h2 class="projects__name">tabano</h2>
-        <p class="projects__description"><b>lorem:</b> lorem</p>
-        <p class="projects__description"><b>lorem:</b> lorem</p>
-        <p class="projects__description"><b>lorem:</b> lorem</p>
-        <p class="projects__description"><b>lorem:</b> lorem</p>
-      </div>
-      <div class="projects__counter">
-        <a class="projects__view" href="#"><span>view projects</span></a>
-        <p class="projects__like like">
-          <button aria-label="like" class="like__btn">
-            <svg>
-              <use xlink:href="/img/symbol/sprite.svg#heart"></use>
-            </svg>
-          </button>
-          <span class="like__counts">+ 200</span>
-        </p>
-      </div>
-    </div>
-    <div class="projects__element projects__element--five">
-      <div class="projects__info">
-        <h2 class="projects__name">lpuis xx</h2>
-        <p class="projects__description"><b>lorem:</b> lorem</p>
-        <p class="projects__description"><b>lorem:</b> lorem</p>
-        <p class="projects__description"><b>lorem:</b> lorem</p>
-        <p class="projects__description"><b>lorem:</b> lorem</p>
-      </div>
-      <div class="projects__counter">
-        <a class="projects__view" href="#"><span>view projects</span></a>
-        <p class="projects__like like">
-          <button aria-label="like" class="like__btn">
-            <svg>
-              <use xlink:href="/img/symbol/sprite.svg#heart"></use>
-            </svg>
-          </button>
-          <span class="like__counts">+ 200</span>
-        </p>
-      </div>
-    </div>
-    <div class="projects__element projects__element--six">
-      <div class="projects__info">
-        <h2 class="projects__name">399-554-ad</h2>
-        <p class="projects__description"><b>lorem:</b> lorem</p>
-        <p class="projects__description"><b>lorem:</b> lorem</p>
-        <p class="projects__description"><b>lorem:</b> lorem</p>
-        <p class="projects__description"><b>lorem:</b> lorem</p>
-      </div>
-      <div class="projects__counter">
-        <a class="projects__view" href="#"><span>view projects</span></a>
-        <p class="projects__like like">
-          <button aria-label="like" class="like__btn">
-            <svg>
-              <use xlink:href="/img/symbol/sprite.svg#heart"></use>
-            </svg>
-          </button>
-          <span class="like__counts">+ 200</span>
-        </p>
-      </div>
-    </div>
-    <div class="projects__element projects__element--seven">
-      <div class="projects__info">
-        <h2 class="projects__name">fiji</h2>
-        <p class="projects__description"><b>lorem:</b> lorem</p>
-        <p class="projects__description"><b>lorem:</b> lorem</p>
-        <p class="projects__description"><b>lorem:</b> lorem</p>
-      </div>
-      <div class="projects__counter">
-        <a class="projects__view" href="#"><span>view projects</span></a>
-        <p class="projects__like like">
-          <button aria-label="like" class="like__btn">
-            <svg>
-              <use xlink:href="/img/symbol/sprite.svg#heart"></use>
-            </svg>
-          </button>
-          <span class="like__counts">+ 200</span>
-        </p>
-      </div>
-    </div>
-    <div class="projects__element projects__element--eight">
-      <div class="projects__info">
-        <h2 class="projects__name">sesann</h2>
-        <p class="projects__description"><b>lorem:</b> lorem</p>
-        <p class="projects__description"><b>lorem:</b> lorem</p>
-        <p class="projects__description"><b>lorem:</b> lorem</p>
-      </div>
-      <div class="projects__counter">
-        <a class="projects__view" href="#"><span>view projects</span></a>
-        <p class="projects__like like">
-          <button aria-label="like" class="like__btn">
-            <svg>
-              <use xlink:href="/img/symbol/sprite.svg#heart"></use>
-            </svg>
-          </button>
-          <span class="like__counts">+ 200</span>
-        </p>
-      </div>
-    </div>
-    <div class="projects__element projects__element--nine">
-      <div class="projects__info">
-        <h2 class="projects__name">Alessi</h2>
-        <p class="projects__description"><b>lorem:</b> lorem</p>
-        <p class="projects__description"><b>lorem:</b> lorem</p>
-        <p class="projects__description"><b>lorem:</b> lorem</p>
-      </div>
-      <div class="projects__counter">
-        <a class="projects__view" href="#"><span>view projects</span></a>
-        <p class="projects__like like">
-          <button aria-label="like" class="like__btn">
-            <svg>
-              <use xlink:href="/img/symbol/sprite.svg#heart"></use>
-            </svg>
-          </button>
-          <span class="like__counts">+ 200</span>
-        </p>
-      </div>
-    </div>
-    <div class="projects__element projects__element--ten">
-      <p class="projects__subtitle">timeline</p>
-      <ul class="projects__links links">
-        <li class="links__item">
-          <a href="#" class="links__link">2014</a>
-        </li>
-        <li class="links__item">
-          <a href="#" class="links__link">2013</a>
-        </li>
-        <li class="links__item">
-          <a href="#" class="links__link">2012</a>
-        </li>
-        <li class="links__item">
-          <a href="#" class="links__link">2011</a>
-        </li>
-        <li class="links__item">
-          <a href="#" class="links__link">Studio Lab</a>
-        </li>
-      </ul>
-    </div>
-  </section>
+    <header class="header">
+        <div class="header__left">
+            <img class="header__logo" src="/img/logo.png" srcset="/img/logo.png 1x, /img/logo-2x.png 2x" alt="Логотип">
+            <p class="header__slogan">Associated<br>studio<br>design</p>
+            <ul class="header__socials socials">
+                <li class="socials__element">
+                    <a class="socials__link" href="#" aria-label="facebook">
+                        <svg class="socials__facebook">
+                            <use xlink:href="/img/symbol/sprite.svg#fb"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="socials__element">
+                    <a class="socials__link" href="#" aria-label="twitter">
+                        <svg class="socials__twitter">
+                            <use xlink:href="/img/symbol/sprite.svg#twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="socials__element">
+                    <a class="socials__link" href="#" aria-label="linkedin">
+                        <svg class="socials__linkedin">
+                            <use xlink:href="/img/symbol/sprite.svg#linked"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="socials__element">
+                    <a class="socials__link" href="#" aria-label="google plus">
+                        <svg class="socials__google">
+                            <use xlink:href="/img/symbol/sprite.svg#google"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="header__right">
+            <p class="header__address">
+                808080 California <br/>
+                Lorem ipsum <br/>
+                32 PG box <br/>
+                300 east ocean <br/>
+                street <br/>
+            </p>
+            <p class="header__contacts">
+                <a class="header__tel" href="tel:+6493456758">+64 9 345 6758</a>
+                <a class="header__mail" href="mailto  :email@mail.com">email@mail.com</a>
+            </p>
+        </div>
+    </header>
+    <nav class="menu">
+        <ul class="menu__list">
+            <li class="menu__element">
+                <a href="#" class="menu__link">Home</a>
+            </li>
+            <li class="menu__element">
+                <a href="#" class="menu__link">Projects</a>
+            </li>
+            <li class="menu__element">
+                <a href="#" class="menu__link">Studio</a>
+            </li>
+            <li class="menu__element">
+                <a href="#" class="menu__link">News</a>
+            </li>
+            <li class="menu__element">
+                <a href="#" class="menu__link">Contact</a>
+            </li>
+        </ul>
+        <button class="menu__hamburger hamburger" aria-label="Кнопка меню">
+            <span class="hamburger__element"></span>
+        </button>
+    </nav>
+    <section class="projects">
+        <div class="projects__element projects__element--one">
+            <ul class="project__links links">
+                <li class="links__item">
+                    <a href="#" class="links__link">All</a>
+                </li>
+                <li class="links__item">
+                    <a href="#" class="links__link">House</a>
+                </li>
+                <li class="links__item">
+                    <a href="#" class="links__link">Commercial</a>
+                </li>
+                <li class="links__item">
+                    <a href="#" class="links__link">Personal</a>
+                </li>
+                <li class="links__item">
+                    <a href="#" class="links__link">Studio Lab</a>
+                </li>
+            </ul>
+            <h1 class="projects__title">projects</h1>
+        </div>
+        <div class="projects__element projects__element--two">
+            <div class="projects__info">
+                <h2 class="projects__name">fondue</h2>
+                <p class="projects__description">
+                    <b>Lorem ipsum:</b> Lorem ipsum
+                </p>
+                <p class="projects__description">
+                    <b>Lorem ipsum:</b> Lorem ipsum
+                </p>
+                <p class="projects__description">
+                    <b>Lorem ipsum:</b> Lorem ipsum
+                </p>
+                <p class="projects__description">
+                    <b>Lorem ipsum:</b> Lorem ipsum
+                </p>
+                <p class="projects__description">
+                    <b>Lorem ipsum:</b> Lorem ipsum
+                </p>
+            </div>
+            <div class="projects__counter">
+                <a class="projects__view" href="#"><span>view projects</span></a>
+                <p class="projects__like like">
+                    <button aria-label="like" class="like__btn">
+                        <svg>
+                            <use xlink:href="/img/symbol/sprite.svg#heart"></use>
+                        </svg>
+                    </button>
+                    <span class="like__counts">+ 200</span>
+                </p>
+            </div>
+        </div>
+        <div class="projects__element projects__element--three">
+            <div class="projects__info">
+                <h2 class="projects__name">potter</h2>
+                <p class="projects__description"><b>for</b> stelton</p>
+                <p class="projects__description projects__description--lowercase">Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Corporis cum nesciunt non, quae recusandae repellat.</p>
+            </div>
+            <div class="projects__counter">
+                <a class="projects__view" href="#"><span>view projects</span></a>
+                <p class="projects__like like">
+                    <button aria-label="like" class="like__btn">
+                        <svg>
+                            <use xlink:href="/img/symbol/sprite.svg#heart"></use>
+                        </svg>
+                    </button>
+                    <span class="like__counts">+ 200</span>
+                </p>
+            </div>
+        </div>
+        <div class="projects__element projects__element--four">
+            <div class="projects__info">
+                <h2 class="projects__name">tabano</h2>
+                <p class="projects__description"><b>lorem:</b> lorem</p>
+                <p class="projects__description"><b>lorem:</b> lorem</p>
+                <p class="projects__description"><b>lorem:</b> lorem</p>
+                <p class="projects__description"><b>lorem:</b> lorem</p>
+            </div>
+            <div class="projects__counter">
+                <a class="projects__view" href="#"><span>view projects</span></a>
+                <p class="projects__like like">
+                    <button aria-label="like" class="like__btn">
+                        <svg>
+                            <use xlink:href="/img/symbol/sprite.svg#heart"></use>
+                        </svg>
+                    </button>
+                    <span class="like__counts">+ 200</span>
+                </p>
+            </div>
+        </div>
+        <div class="projects__element projects__element--five">
+            <div class="projects__info">
+                <h2 class="projects__name">lpuis xx</h2>
+                <p class="projects__description"><b>lorem:</b> lorem</p>
+                <p class="projects__description"><b>lorem:</b> lorem</p>
+                <p class="projects__description"><b>lorem:</b> lorem</p>
+                <p class="projects__description"><b>lorem:</b> lorem</p>
+            </div>
+            <div class="projects__counter">
+                <a class="projects__view" href="#"><span>view projects</span></a>
+                <p class="projects__like like">
+                    <button aria-label="like" class="like__btn">
+                        <svg>
+                            <use xlink:href="/img/symbol/sprite.svg#heart"></use>
+                        </svg>
+                    </button>
+                    <span class="like__counts">+ 200</span>
+                </p>
+            </div>
+        </div>
+        <div class="projects__element projects__element--six">
+            <div class="projects__info">
+                <h2 class="projects__name">399-554-ad</h2>
+                <p class="projects__description"><b>lorem:</b> lorem</p>
+                <p class="projects__description"><b>lorem:</b> lorem</p>
+                <p class="projects__description"><b>lorem:</b> lorem</p>
+                <p class="projects__description"><b>lorem:</b> lorem</p>
+            </div>
+            <div class="projects__counter">
+                <a class="projects__view" href="#"><span>view projects</span></a>
+                <p class="projects__like like">
+                    <button aria-label="like" class="like__btn">
+                        <svg>
+                            <use xlink:href="/img/symbol/sprite.svg#heart"></use>
+                        </svg>
+                    </button>
+                    <span class="like__counts">+ 200</span>
+                </p>
+            </div>
+        </div>
+        <div class="projects__element projects__element--seven">
+            <div class="projects__info">
+                <h2 class="projects__name">fiji</h2>
+                <p class="projects__description"><b>lorem:</b> lorem</p>
+                <p class="projects__description"><b>lorem:</b> lorem</p>
+                <p class="projects__description"><b>lorem:</b> lorem</p>
+            </div>
+            <div class="projects__counter">
+                <a class="projects__view" href="#"><span>view projects</span></a>
+                <p class="projects__like like">
+                    <button aria-label="like" class="like__btn">
+                        <svg>
+                            <use xlink:href="/img/symbol/sprite.svg#heart"></use>
+                        </svg>
+                    </button>
+                    <span class="like__counts">+ 200</span>
+                </p>
+            </div>
+        </div>
+        <div class="projects__element projects__element--eight">
+            <div class="projects__info">
+                <h2 class="projects__name">sesann</h2>
+                <p class="projects__description"><b>lorem:</b> lorem</p>
+                <p class="projects__description"><b>lorem:</b> lorem</p>
+                <p class="projects__description"><b>lorem:</b> lorem</p>
+            </div>
+            <div class="projects__counter">
+                <a class="projects__view" href="#"><span>view projects</span></a>
+                <p class="projects__like like">
+                    <button aria-label="like" class="like__btn">
+                        <svg>
+                            <use xlink:href="/img/symbol/sprite.svg#heart"></use>
+                        </svg>
+                    </button>
+                    <span class="like__counts">+ 200</span>
+                </p>
+            </div>
+        </div>
+        <div class="projects__element projects__element--nine">
+            <div class="projects__info">
+                <h2 class="projects__name">Alessi</h2>
+                <p class="projects__description"><b>lorem:</b> lorem</p>
+                <p class="projects__description"><b>lorem:</b> lorem</p>
+                <p class="projects__description"><b>lorem:</b> lorem</p>
+            </div>
+            <div class="projects__counter">
+                <a class="projects__view" href="#"><span>view projects</span></a>
+                <p class="projects__like like">
+                    <button aria-label="like" class="like__btn">
+                        <svg>
+                            <use xlink:href="/img/symbol/sprite.svg#heart"></use>
+                        </svg>
+                    </button>
+                    <span class="like__counts">+ 200</span>
+                </p>
+            </div>
+        </div>
+        <div class="projects__element projects__element--ten">
+            <p class="projects__subtitle">timeline</p>
+            <ul class="projects__links links">
+                <li class="links__item">
+                    <a href="#" class="links__link">2014</a>
+                </li>
+                <li class="links__item">
+                    <a href="#" class="links__link">2013</a>
+                </li>
+                <li class="links__item">
+                    <a href="#" class="links__link">2012</a>
+                </li>
+                <li class="links__item">
+                    <a href="#" class="links__link">2011</a>
+                </li>
+                <li class="links__item">
+                    <a href="#" class="links__link">Studio Lab</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="studio">
+        <div class="studio__left">
+            <h2 class="studio__title">Studio</h2>
+        </div>
+        <div class="studio__right">
+            <div class="studio__information">
+                <p class="studio__text studio__text--bold-italic">Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Ea, nisi.</p>
+                <p class="studio__text studio__text--bold-italic">Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Ea, nisi.</p>
+                <p class="studio__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dignissimos
+                    ea exercitationem nihil, nisi quia!</p>
+                <p class="studio__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dignissimos
+                    ea exercitationem nihil, nisi quia!</p>
+                <p class="studio__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dignissimos
+                    ea exercitationem nihil, nisi quia!</p>
+            </div>
+
+            <div class="studio__description">
+                <picture>
+                    <source media="(min-width: 1500px)"
+                            srcset="/img/studio-img-2x.jpg"/>
+                    <img class="studio__img"
+                         src="/img/studio-img.jpg"
+                         srcset="/img/studio-img.jpg 1x, /img/studio-img-2x.jpg 2x"
+                         alt="фото">
+                </picture>
+                <h3 class="studio__subtitle">awards</h3>
+                <ul class="studio__list">
+                    <li class="studio__list-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam,
+                        necessitatibus?
+                    </li>
+                    <li class="studio__list-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam,
+                        necessitatibus?
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="studio__stuff">
+            <p class="studio__stuff-title">lorem</p>
+            <p class="studio__stuff-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolore
+                facilis, fugit iste saepe voluptatum?</p>
+            <p class="studio__stuff-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolore
+                facilis, fugit iste saepe voluptatum?</p>
+        </div>
+        <div class="studio__persons">
+            <ul class="persons">
+                <li class="persons__item">
+                    <picture>
+                        <source media="(min-width: 1500px)"
+                                srcset="/img/person1-2x.jpg"
+                        >
+                        <img
+                                class="persons__img"
+                                src="/img/person1.jpg"
+                                srcset="/img/person1.jpg 1x,
+                              /img/person1-2x.jpg 2x"
+                                alt="lorem">
+                    </picture>
+                    <p class="persons__name">John Doe</p>
+                    <p class="persons__post">Designer</p>
+                    <div class="persons__info">
+                        <a href="#" class="persons__cv">
+                            <span>CV</span>
+                        </a>
+                        <ul class="persons__socials socials">
+                            <li class="socials__element">
+                                <a class="socials__link" href="#" aria-label="facebook">
+                                    <svg class="socials__facebook-mini">
+                                        <use xlink:href="/img/symbol/sprite.svg#fb"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="socials__element">
+                                <a class="socials__link" href="#" aria-label="twitter">
+                                    <svg class="socials__twitter-mini">
+                                        <use xlink:href="/img/symbol/sprite.svg#twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="socials__element">
+                                <a class="socials__link" href="#" aria-label="linkedin">
+                                    <svg class="socials__linkedin-mini">
+                                        <use xlink:href="/img/symbol/sprite.svg#linked"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="socials__element">
+                                <a class="socials__link" href="#" aria-label="google plus">
+                                    <svg class="socials__google-mini">
+                                        <use xlink:href="/img/symbol/sprite.svg#google"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="persons__item">
+                    <picture>
+                        <source media="(min-width: 1500px)"
+                                srcset="/img/person2-2x.jpg"
+                        >
+                        <img
+                                class="persons__img"
+                                src="/img/person2.jpg"
+                                srcset="/img/person2.jpg 1x,
+                              /img/person2-2x.jpg 2x"
+                                alt="lorem">
+                    </picture>
+                    <p class="persons__name">John Doe</p>
+                    <p class="persons__post">Designer</p>
+                    <div class="persons__info">
+                        <a href="#" class="persons__cv">
+                            <span>CV</span>
+                        </a>
+                        <ul class="persons__socials socials">
+                            <li class="socials__element">
+                                <a class="socials__link" href="#" aria-label="facebook">
+                                    <svg class="socials__facebook-mini">
+                                        <use xlink:href="/img/symbol/sprite.svg#fb"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="socials__element">
+                                <a class="socials__link" href="#" aria-label="twitter">
+                                    <svg class="socials__twitter-mini">
+                                        <use xlink:href="/img/symbol/sprite.svg#twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="socials__element">
+                                <a class="socials__link" href="#" aria-label="linkedin">
+                                    <svg class="socials__linkedin-mini">
+                                        <use xlink:href="/img/symbol/sprite.svg#linked"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="socials__element-mini">
+                                <a class="socials__link" href="#" aria-label="google plus">
+                                    <svg class="socials__google-mini">
+                                        <use xlink:href="/img/symbol/sprite.svg#google"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="persons__item">
+                    <picture>
+                        <source media="(min-width: 1500px)"
+                                srcset="/img/person3-2x.jpg"
+                        >
+                        <img
+                                class="persons__img"
+                                src="/img/person3.jpg"
+                                srcset="/img/person3.jpg 1x,
+                              /img/person3-2x.jpg 2x"
+                                alt="lorem">
+                    </picture>
+                    <p class="persons__name">John Doe</p>
+                    <p class="persons__post">Designer</p>
+                    <div class="persons__info">
+                        <a href="#" class="persons__cv">
+                            <span>CV</span>
+                        </a>
+                        <ul class="persons__socials socials">
+                            <li class="socials__element">
+                                <a class="socials__link" href="#" aria-label="facebook">
+                                    <svg class="socials__facebook-mini">
+                                        <use xlink:href="/img/symbol/sprite.svg#fb"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="socials__element">
+                                <a class="socials__link" href="#" aria-label="twitter">
+                                    <svg class="socials__twitter-mini">
+                                        <use xlink:href="/img/symbol/sprite.svg#twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="socials__element">
+                                <a class="socials__link" href="#" aria-label="linkedin">
+                                    <svg class="socials__linkedin-mini">
+                                        <use xlink:href="/img/symbol/sprite.svg#linked"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="socials__element-mini">
+                                <a class="socials__link" href="#" aria-label="google plus">
+                                    <svg class="socials__google-mini">
+                                        <use xlink:href="/img/symbol/sprite.svg#google"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="news">
+        <div class="news__left">
+            <h2 class="news__title">News</h2>
+        </div>
+        <div class="news__right">
+            <ul class="news__list">
+                <li class="news__element">
+                    <p class="news__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <time class="news__date" datetime="2019-07-11">11.07.2019</time>
+                    <picture>
+                        <source media="(min-width: 1500px)"
+                                srcset="/img/news1-2x.jpg"/>
+                        <img class="news__img"
+                             src="/img/news1.jpg"
+                             srcset="/img/news1.jpg 1x, /img/news1-2x.jpg 2x"
+                             alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+                    </picture>
+                    <p class="news__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
+                        architecto aspernatur aut cum dolore dolores ducimus enim eos est iure nesciunt nisi numquam
+                        odit, placeat porro possimus quae quidem repellendus similique, temporibus unde veritatis,
+                        voluptate? Ex molestiae porro quasi tempore.</p>
+                    <p class="news__href">
+                        <a href="#" class="news__link">read more</a>
+                    </p>
+                </li>
+                <li class="news__element">
+                    <p class="news__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <time class="news__date" datetime="2019-07-11">11.07.2019</time>
+                    <picture>
+                        <source media="(min-width: 1500px)"
+                                srcset="/img/news2-2x.jpg"/>
+                        <img class="news__img"
+                             src="/img/news2.jpg"
+                             srcset="/img/news2.jpg 1x, /img/news2-2x.jpg 2x"
+                             alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+                    </picture>
+                    <p class="news__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
+                        architecto aspernatur aut cum dolore dolores ducimus enim eos est iure nesciunt nisi numquam
+                        odit, placeat porro possimus quae quidem repellendus similique, temporibus unde veritatis,
+                        voluptate? Ex molestiae porro quasi tempore.</p>
+                    <p class="news__href">
+                        <a href="#" class="news__link">read more</a>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer class="footer">
+        <div id="map" class="footer__map"></div>
+        <div class="footer__info">
+            <div class="footer__left">
+                <p class="footer__address">
+                    808080 California <br/>
+                    Lorem ipsum <br/>
+                    32 PG box <br/>
+                    300 east ocean <br/>
+                    street <br/>
+                </p>
+                <p class="footer__contacts">
+                    <a class="footer__tel" href="tel:+6493456758">+64 9 345 6758</a>
+                    <a class="footer__mail" href="mailto  :email@mail.com">email@mail.com</a>
+                </p>
+            </div>
+            <div class="footer__right">
+                <img class="footer__logo" src="/img/logo.png" srcset="/img/logo.png 1x, /img/logo-2x.png 2x"
+                     alt="Логотип">
+                <p class="footer__slogan">Associated<br>studio<br>design</p>
+                <ul class="footer__socials socials">
+                    <li class="socials__element">
+                        <a class="socials__link" href="#" aria-label="facebook">
+                            <svg class="socials__facebook">
+                                <use xlink:href="/img/symbol/sprite.svg#fb"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="socials__element">
+                        <a class="socials__link" href="#" aria-label="twitter">
+                            <svg class="socials__twitter">
+                                <use xlink:href="/img/symbol/sprite.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="socials__element">
+                        <a class="socials__link" href="#" aria-label="linkedin">
+                            <svg class="socials__linkedin">
+                                <use xlink:href="/img/symbol/sprite.svg#linked"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="socials__element">
+                        <a class="socials__link" href="#" aria-label="google plus">
+                            <svg class="socials__google">
+                                <use xlink:href="/img/symbol/sprite.svg#google"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p class="footer__copy">&copy; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores,
+                recusandae?</p>
+        </div>
+    </footer>
 </div>
+<script>
+  const design = [
+    {
+      "featureType": "water",
+      "elementType": "geometry",
+      "stylers": [
+        {
+          "color": "#e9e9e9"
+        },
+        {
+          "lightness": 17
+        }
+      ]
+    },
+    {
+      "featureType": "landscape",
+      "elementType": "geometry",
+      "stylers": [
+        {
+          "color": "#f5f5f5"
+        },
+        {
+          "lightness": 20
+        }
+      ]
+    },
+    {
+      "featureType": "road.highway",
+      "elementType": "geometry.fill",
+      "stylers": [
+        {
+          "color": "#ffffff"
+        },
+        {
+          "lightness": 17
+        }
+      ]
+    },
+    {
+      "featureType": "road.highway",
+      "elementType": "geometry.stroke",
+      "stylers": [
+        {
+          "color": "#ffffff"
+        },
+        {
+          "lightness": 29
+        },
+        {
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "featureType": "road.arterial",
+      "elementType": "geometry",
+      "stylers": [
+        {
+          "color": "#ffffff"
+        },
+        {
+          "lightness": 18
+        }
+      ]
+    },
+    {
+      "featureType": "road.local",
+      "elementType": "geometry",
+      "stylers": [
+        {
+          "color": "#ffffff"
+        },
+        {
+          "lightness": 16
+        }
+      ]
+    },
+    {
+      "featureType": "poi",
+      "elementType": "geometry",
+      "stylers": [
+        {
+          "color": "#f5f5f5"
+        },
+        {
+          "lightness": 21
+        }
+      ]
+    },
+    {
+      "featureType": "poi.park",
+      "elementType": "geometry",
+      "stylers": [
+        {
+          "color": "#dedede"
+        },
+        {
+          "lightness": 21
+        }
+      ]
+    },
+    {
+      "elementType": "labels.text.stroke",
+      "stylers": [
+        {
+          "visibility": "on"
+        },
+        {
+          "color": "#ffffff"
+        },
+        {
+          "lightness": 16
+        }
+      ]
+    },
+    {
+      "elementType": "labels.text.fill",
+      "stylers": [
+        {
+          "saturation": 36
+        },
+        {
+          "color": "#333333"
+        },
+        {
+          "lightness": 40
+        }
+      ]
+    },
+    {
+      "elementType": "labels.icon",
+      "stylers": [
+        {
+          "visibility": "off"
+        }
+      ]
+    },
+    {
+      "featureType": "transit",
+      "elementType": "geometry",
+      "stylers": [
+        {
+          "color": "#f2f2f2"
+        },
+        {
+          "lightness": 19
+        }
+      ]
+    },
+    {
+      "featureType": "administrative",
+      "elementType": "geometry.fill",
+      "stylers": [
+        {
+          "color": "#fefefe"
+        },
+        {
+          "lightness": 20
+        }
+      ]
+    },
+    {
+      "featureType": "administrative",
+      "elementType": "geometry.stroke",
+      "stylers": [
+        {
+          "color": "#fefefe"
+        },
+        {
+          "lightness": 17
+        },
+        {
+          "weight": 1.2
+        }
+      ]
+    }
+  ];
+  let map;
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: 33.769943, lng: -118.195604},
+      zoom: 10,
+      styles: design,
+    });
+
+    var marker = new google.maps.Marker({
+      position: {lat: 33.769943, lng: -118.195604},
+      map: map,
+      icon: '/img/marker.svg',
+    });
+  }
+
+
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHr6PyJ1fW057R034wkDaLFfbLYyMvgvU&callback=initMap"
+        async defer></script>
+
 </body>
 </html>
 

@@ -18,10 +18,22 @@
     fill: $second;
   }
 
+  &__facebook-mini {
+    width: 6px;
+    height: 13px;
+    fill: $red;
+  }
+
   &__twitter {
     width: 26px;
     height: 21px;
     fill: $second;
+  }
+
+  &__twitter-mini {
+    width: 13px;
+    height: 10px;
+    fill: $red;
   }
 
   &__linkedin {
@@ -30,9 +42,21 @@
     fill: $second;
   }
 
+  &__linkedin-mini {
+    width: 13px;
+    height: 12px;
+    fill: $red;
+  }
+
   &__google {
     width: 19px;
     height: 19px;
     fill: $second;
+  }
+
+  &__google-mini {
+    width: 13px;
+    height: 12px;
+    fill: $red;
   }
 }

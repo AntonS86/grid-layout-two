@@ -1,0 +1,151 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  &__map {
+    grid-column: span 1;
+  }
+
+  &__info {
+    grid-column: span 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__left {
+    margin-left: 15.3%;
+    margin-top: 20%;
+  }
+
+  &__right {
+    margin-right: 22%;
+    margin-top: 20%;
+  }
+
+  &__logo {
+    display: block;
+    max-width: 100%;
+  }
+
+  &__slogan {
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 1;
+    color: $colorText;
+    margin: 5px 0 0;
+
+    @media (min-width: 1500px) {
+      @include dynamicText(112.5%, 36, 18, 1500px, 3000, 1500);
+    }
+  }
+
+  &__socials {
+    margin: 60px 0 15px 15px ;
+  }
+
+  &__address {
+    font-size: 13px;
+    color: $colorText;
+    text-transform: uppercase;
+    line-height: 1.077;
+    margin: 10% 0;
+
+    @media (min-width: 1500px) {
+      @include dynamicText(81.25%, 26, 13, 1500px, 3000, 1500);
+    }
+
+  }
+
+  &__contacts {
+    font-size: 13px;
+    color:  $colorText;
+    text-transform: uppercase;
+    line-height: 1.077;
+    margin: 10% 0;
+
+    @media (min-width: 1500px) {
+      @include dynamicText(81.25%, 26, 13, 1500px, 3000, 1500);
+    }
+
+  }
+
+  &__tel, &__mail {
+    color: $colorText;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    transition: color .5s;
+
+    &:hover {
+      color: $activeTextColor;
+    }
+  }
+
+  &__copy {
+    font-size: 12px;
+    line-height: 1.8;
+    color: $colorText;
+    text-align: center;
+    flex-basis: 100%;
+    margin: 9% 0 7% 0;
+
+    @media (min-width: 1500px) {
+      @include dynamicText(75%, 24, 12, 1500px, 3000, 1500);
+    }
+  }
+}
+
+
+@media (max-width: 1500px) {
+  .footer__right {
+    margin-right: 2%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .footer {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__map {
+    padding-bottom: 75%;
+  }
+
+  .footer__left {
+    margin-left: 5%;
+  }
+
+  .footer__right {
+    margin-right: 5%;
+  }
+}
+
+
+@media (max-width: 560px) {
+  .footer__info {
+    display: block;
+  }
+
+  .footer__left {
+    text-align: center;
+    margin-right: 5%;
+    margin-top: 10%;
+  }
+
+  .footer__right {
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+  .footer__logo {
+    margin: 0 auto;
+  }
+
+  .footer__socials {
+    margin-left: 0;
+    justify-content: center;
+  }
+}
